@@ -37696,7 +37696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: --- ZONA DE PERIGO ---
+  m_text: -- ZONA DE PERIGO --
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a5c3fc7d45eb79e4191c59f966cf65fb, type: 2}
   m_sharedMaterial: {fileID: -4655816559494645701, guid: a5c3fc7d45eb79e4191c59f966cf65fb,
