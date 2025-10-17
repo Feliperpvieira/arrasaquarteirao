@@ -261,6 +261,40 @@ footer section > div{
     margin: auto;
 }
 
+.repraca .logo-prints{
+    max-width: 500px;
+    width: 43%;
+}
+
+.repraca .print-1{
+    display: block;
+    margin-left: auto;
+
+    transform: rotate(2.856deg);
+    border-radius: 14px;
+    border: 7px solid #FFF; 
+}
+
+.repraca .print-2{
+    display: block;
+    margin-left: 20%;
+    margin-top: -2%;
+
+    transform: rotate(-3.21deg);
+    border-radius: 14px;
+    border: 7px solid #FFF;
+}
+
+.repraca .logo-aq{
+    display: block;
+    margin-right: auto;
+
+    margin-top: -55%;
+    width: 45%;
+    position: relative;
+    z-index: 99;
+}
+
 
 
 /* Mobile */
@@ -359,6 +393,33 @@ footer section > div{
         margin-bottom: 40px;
         width: 50%;
     }
+
+    .repraca .logo-prints{
+        width: 100%;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+    
+    .repraca .print-1{
+        width: 80%;
+        margin: auto 0 auto auto;
+    }
+    
+    .repraca .print-2{
+        width: 70%;
+        margin-right: auto;
+        margin-top: -6%;
+        margin-left: 0;
+    }
+    
+    .repraca .logo-aq{
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: -30%;
+        width: 40%;
+
+    }
+
 
     /* rodapé */
     .termos-legais{
