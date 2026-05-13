@@ -439,12 +439,18 @@ footer section > div{
 @media screen and (max-width: 760px) {
 
     h2{
-        font-size: 56px;
+        font-size: 48px;
+        line-height: 1;
     }
 
     h3{
-        font-size: 34px;
+        font-size: 32px;
     }
+
+    .content p{
+        font-size: 22px;
+    }
+
 
 
 
@@ -556,6 +562,9 @@ footer section > div{
     }
 
 
+    .projeto p{
+        font-size: 18px;
+    }
 
     .projeto-texto{
         width: 100%;
