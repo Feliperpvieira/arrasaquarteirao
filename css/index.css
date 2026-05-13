@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Jockey One', sans-serif;
 }
 
+a{
+    color: #57C4F9;
+}
+
 h2{
     font-size: 64px;
 }
@@ -19,8 +23,8 @@ h3{
     font-size: 42px;
 }
 
-h4{
-    font-size: 36px;
+h6{
+    font-size: 22px;
 }
 
 
@@ -202,10 +206,65 @@ body{
 }
 
 
+/* Projeto */
+.projeto{
+    margin-bottom: 56px;
+}
 
+.barra-cinza{
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: #303030;
+}
 
+.subtitulo-projeto{
+    display: flex;
+    justify-content: start;
 
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
 
+.subtitulo-projeto .left{
+    width: 52px;
+    margin-right: 16px;
+    transform: rotate(-15deg);
+    margin-top: 10px;
+}
+
+.subtitulo-projeto .right{
+    width: 52px;
+    margin-left: 16px;
+    transform: rotate(15deg);
+    margin-top: 10px;
+}
+
+.projeto-texto{
+    width: 65%;
+    margin: 0 auto 36px 0;
+}
+
+.projeto > img{
+    margin-bottom: 96px;
+}
+
+.feedback-txt{
+    margin-top: 32px;
+}
+
+.creditos h2{
+    font-size: 34px;
+}
+
+.creditos p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.creditos .subtitulo-projeto img{
+    width: 32px;
+}
 
 
 
@@ -272,6 +331,7 @@ footer section > div{
     display: flex;
     justify-content: space-between;
 
+    margin-top: 146px;
     margin-bottom: -55px;
 }
 
@@ -497,6 +557,9 @@ footer section > div{
 
 
 
+    .projeto-texto{
+        width: 100%;
+    }
 
 
 
