@@ -11,6 +11,19 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Jockey One', sans-serif;
 }
 
+h2{
+    font-size: 64px;
+}
+
+h3{
+    font-size: 42px;
+}
+
+h4{
+    font-size: 36px;
+}
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -123,15 +136,80 @@ body{
     height: 92px;
 }
 
-.link-online{
-    text-align: center;
-    color: #303030;
-    display: block;
-    text-align: center;
-    font-size: 1.2rem;
 
-    margin-top: 2rem;
+/* Corpo de conteúdo */
+.content p{
+    font-size: 24px;
 }
+
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.bloco-historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 64px 0;
+}
+
+.bloco-historia div{
+    max-width: 43%;
+}
+
+.bloco-historia div img{
+    width: 184px;
+}
+
+.bloco-historia img{
+    width: 55%;
+}
+
+.final-historia{
+    margin-top: -56px;
+    line-height: 1.1;
+    margin-bottom: 64px;
+}
+
+/* Videos */
+.video-text{
+    margin-bottom: 160px;
+}
+
+.video-text h2{
+    -webkit-text-stroke-width: 12px;
+    -webkit-text-stroke-color: #FFF;
+    paint-order: stroke fill;
+
+
+    position: absolute;
+    z-index: 1;
+
+    line-height: 1;
+}
+
+.video-text video{
+    position: relative;
+    z-index: 0;
+    margin-top: 30px;
+}
+
+.content .logos-cover{
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer{
@@ -299,6 +377,18 @@ footer section > div{
 
 /* Mobile */
 @media screen and (max-width: 760px) {
+
+    h2{
+        font-size: 56px;
+    }
+
+    h3{
+        font-size: 34px;
+    }
+
+
+
+
     .aq-head{
         height: 650px;
     }
@@ -353,6 +443,63 @@ footer section > div{
         height: auto;
         transform: rotate(0deg);
     }
+
+
+
+
+
+
+
+
+    /* Corpo de conteúdo */
+
+
+    .content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .bloco-historia{
+        flex-direction: column;
+
+        margin: 92px 0;
+    }
+
+    .bloco-historia div{
+        max-width: 90%;
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+
+    .bloco-historia div img{
+        width: 140px;
+    }
+
+    .bloco-historia img{
+        width: 100%;
+    }
+
+    .final-historia{
+        margin-top: -90px;
+        margin-bottom: 56px;
+    }
+
+    /* Videos */
+    .video-text{
+        margin-bottom: 100px;
+    }
+
+    .content .logos-cover{
+        margin-top: -50px;
+
+    }
+
+
+
+
+
+
 
     /* repraca */
     .repraca{
