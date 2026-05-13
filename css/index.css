@@ -448,7 +448,7 @@ footer section > div{
     }
 
     .content p{
-        font-size: 22px;
+        font-size: 20px;
     }
 
 
@@ -562,15 +562,9 @@ footer section > div{
     }
 
 
-    /* Projeto */
     .barra-cinza{
-        height: 8px;
+        height: 4px;
     }
-
-    .subtitulo-projeto img{
-        width: 24px;
-    }
-
     .projeto-texto{
         width: 100%;
     }
