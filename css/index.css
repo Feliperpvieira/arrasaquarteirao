@@ -439,12 +439,12 @@ footer section > div{
 @media screen and (max-width: 760px) {
 
     h2{
-        font-size: 48x;
+        font-size: 42px;
         line-height: 1;
     }
 
     h3{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .content p{
@@ -561,9 +561,12 @@ footer section > div{
 
     }
 
-
+    /* Projeto */
+    .subtitulo-projeto img{
+        width: 24px;
+    }
     .barra-cinza{
-        height: 4px;
+        height: 8px;
     }
     .projeto-texto{
         width: 100%;
