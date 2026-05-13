@@ -449,6 +449,7 @@ footer section > div{
 
     .content p{
         font-size: 20px;
+        line-height: 1.4;
     }
 
 
@@ -562,14 +563,18 @@ footer section > div{
     }
 
     /* Projeto */
-    .subtitulo-projeto img{
-        width: 24px;
+    .subtitulo-projeto .left, .subtitulo-projeto .right{
+        width: 32px;
     }
     .barra-cinza{
         height: 8px;
     }
     .projeto-texto{
         width: 100%;
+    }
+
+    .creditos .subtitulo-projeto img{
+        width: 28px;
     }
 
 
